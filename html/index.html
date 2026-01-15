@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Generate your password</title>
+  <link rel="stylesheet" href="/style.css" />
+  <script type="module" src="/js/main.js"></script>
+</head>
+<body>
+  <div class="block-1">
+    <h1>Generate your password</h1>
+    <img id="reset" src="/img/2805355.png" />
+    <div class="pas">
+      <div id="erst">
+        <form id="myForm">
+          <label for="length">Length:</label>
+          <input type="number" id="length" value="10" max="99" min="1" required />
+          <br />
+          <label for="count">Count:</label>
+          <input type="number" id="count" value="5" max="99" min="1" required />
+          <br />
+          <label><input type="checkbox" name="n" value="1" /> Numbers</label>
+          <label><input type="checkbox" name="ss" value="1" /> Special Symbols</label>
+          <button type="submit">Send</button>
+        </form>
+
+        <div id="show_pass">
+          <button type="button" id="load">Show all passwords</button>
+        </div>
+
+        <form id="search">
+          <label for="pid">Download by ID:</label>
+          <input type="text" id="pid" name="pid" />
+          <br />
+          <input type="radio" name="format" value="json" /> JSON
+          <input type="radio" name="format" value="csv" /> CSV
+          <br />
+          <button type="submit">Download</button>
+        </form>
+      </div>
+
+      <div id="zwei">
+        <div id="table-container"></div>
+      </div>
+
+      <form id='logouting' action="/auth/logout" method="get">
+        <button type="submit">Logout</button>
+      </form>
+    </div>
+  </div>
+</body>
+<div class="a cloud"></div>
+<div class="b cloud"></div>
+<div class="c cloud"></div>
+<div class="d cloud"></div>
+<div class="e cloud"></div>
+<div class="f cloud"></div>
+</html>

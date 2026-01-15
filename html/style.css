@@ -1,0 +1,365 @@
+
+@keyframes myAnimation_2 {
+  0%   { top:-1000px; color: rgb(79 140 194);}
+  100% { left:0px; top:0px;}
+}
+
+html{
+  text-align: center;
+  font-size: 16px;
+  font-family: system-ui;
+}
+
+.pas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: system-ui;
+  font-weight: 300;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 200;
+  font-family: system-ui;
+}
+
+body{
+  height: 1080px;
+  font-size: 16px;
+  color: rgb(49, 31, 31);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  background-color: rgb(189 224 255 / 73%);
+  max-height: 1080px;
+  max-width: 1980px;
+  scrollbar-color: rgba(5, 106, 194, 0.25);
+}
+
+label{
+  font-size: 24px;
+}
+
+input{
+  border-radius: 15px;
+}
+
+input[type="text"],
+input[type="number"] {
+  border-width: 2px;
+  border-style: none;
+  border-color: rgb(196, 181, 248);
+  width:245px;
+  height:25px;
+  font-size: 16px;
+  text-align: center;
+  font-family: system-ui;
+  font-weight:300;
+  }
+
+button{
+  font-family: system-ui;
+  font-weight:300;
+  background-color: rgb(79 140 194 / 5%);
+  width: 250px;
+  height: 40px;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  border:none;
+  margin-top:10px;
+  margin-bottom:10px;
+  align-self: center;
+  box-shadow: 4px 3px 3px rgb(79 140 194 / 25%);
+  transition: background-color 0.5s ease;
+}
+
+button:hover{
+  background-color: rgba(6, 115, 211, 0.123);
+  box-shadow: 4px 3px 3px rgba(6, 121, 223, 0.25);
+}
+
+.cloud {
+  width: 300px;
+  height: 200px;
+  position: fixed;
+  background-color: white;
+  border-radius: 100%;
+  z-index: 1;
+  border-bottom-left-radius: 15%;
+  border-bottom-right-radius: 15%;
+}
+
+.a{
+  top: 1000px;
+  left: 0;
+}
+
+.b {
+  top: 1000px;
+  left: 150px;
+}
+
+.c {
+  top: 1000px;
+  left: 1299px;
+  width: 583px;
+}
+
+.d {
+  top: 900px;
+  left: 1400px;
+}
+
+.e {
+  top: 950px;
+  left: 1300px;
+}
+
+.f {
+  top: 900px;
+  left: 0;
+}
+
+#load{ 
+  font-family: system-ui;
+  font-weight: 400;
+  background-color: rgb(79 140 194 / 0%);;
+  width: 250px;
+  height: 40px;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  border:none;
+  margin-top:10px;
+  margin-bottom:10px;
+  align-self: center;
+  box-shadow: 4px 3px 3px rgb(79 140 194 / 25%);
+}
+
+#load:hover{
+  background-color: rgba(5, 106, 194, 0.25);
+  box-shadow: 4px 3px 3px rgba(5, 106, 194, 0.25);
+}
+
+#id {
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-self: center;
+  position: absolute;
+  left: 1830px;
+  top: 10px;
+}
+
+#reset {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-self: center;
+  position: absolute;
+  left: 1200px;
+  top: 20px;
+}
+
+#myForm,  #search{
+  padding: 15px;
+  border-radius: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(189 224 255 / 33%);
+  border-radius: 20px;
+  width: 256px;
+  height: 188px;
+  box-shadow: 4px 3px 3px rgb(174 187 243 / 33%);
+}
+
+#zwei{
+  padding-left: 15px;
+}
+
+#show_pass {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.block-1{
+  background: repeating-linear-gradient(180deg, #ffffff, rgb(189 224 255 / 73%));
+  border-radius: 24px;
+  width: 1250px;
+  height: 950px;
+  margin-top: 60px;
+  position: relative;
+  z-index: 2;
+}
+
+label,
+input,
+textarea,
+select,
+button {
+  font-size: 1.2rem;
+  line-height: 1.2
+}
+
+#table-container{
+  background-color: rgb(192 201 238 / 32%);
+  font-size: 16px;
+  box-shadow: 4px 3px 3px rgba(174, 187, 243, 0.54);
+}
+
+.modal {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: flex; justify-content: center; align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 400px;
+  position: relative;
+  animation-name: myAnimation_2;
+  animation-duration: 3s;
+}
+
+.modal-actions {
+  margin-top: 1rem;
+  display: flex; justify-content: space-around;
+}
+
+.modal .btn {
+  font-family: system-ui;
+  font-weight: 300;
+  background-color: rgb(79 140 194 / 5%);
+  width: 140px;
+  height: 40px;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-self: center;
+  box-shadow: 4px 3px 3px rgb(79 140 194 / 25%);
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  transition: background-color 0.5s ease;
+}
+
+.modal .btn:hover {
+  background-color: rgb(24 146 255 / 11%);
+}
+
+.close-btn {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  font-family: emoji;
+  cursor: pointer;
+  width: 10%;
+  background-color: rgb(255 0 0 / 11%);
+}
+
+.close-btn:hover{
+  background-color: rgba(255, 0, 0, 0.199);
+}
+
+#table-container {
+  font-family: system-ui;
+  max-height: 600px;
+  max-width: 800px;
+  height: 516px;
+  width: 706px;
+  border-radius: 16px;
+  overflow-y: auto;
+  scrollbar-color: rgba(5, 106, 194, 0.25);
+  border: 1px solid rgb(184 194 241 / 33%);
+  background-color: rgb(189 224 255 / 33%);
+  overflow-y:scroll;
+}
+
+#table-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#table-container th, #table-container td:hover {
+  background-color: rgb(189 224 255 / 33%);
+  font-family: system-ui;
+  font-weight:300;
+  }
+
+#table-container th,
+#table-container td {
+  padding: 8px;
+  text-align: left;
+}
+
+#table-container th, #table-container td:hover {
+  background-color: rgb(189 224 255 / 40%);
+}
+
+button{font-family: system-ui;
+  font-weight: 400;
+  background-color: rgb(79 140 194 / 0%);
+  width: 250px;
+  height: 40px;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-self: center;
+  box-shadow: 4px 3px 3px rgb(79 140 194 / 25%);
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    font-size: 14px; 
+  }
+  #table-container {
+    background-color: rgba(189, 224, 255, 0.699);
+  }
+  .block-1{
+    top: 100px;
+    height: 1250px;
+    background: repeating-linear-gradient(180deg, #ffffff, rgb(189, 224, 255));
+  }
+  #reset {
+    left: 730px;
+    top: 33px;
+  }
+}
+
+@media screen and (max-width: 1235px) {
+  #reset {
+    left: 830px;
+    top: 33px;
+    position: absolute;
+  }
+}
